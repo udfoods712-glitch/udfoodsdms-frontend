@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://192.168.1.7:8000",
+  baseURL: "https://udfoodsdms-backend.onrender.com",
   timeout: 10000,
 });
 
