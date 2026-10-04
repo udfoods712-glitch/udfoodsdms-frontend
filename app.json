@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "frontend",
+    "name": "UD Foods",
     "slug": "udfoods",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/splash-icon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
@@ -12,9 +12,9 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/splash-icon.png",
+        "backgroundImage": "./assets/splash-icon.png",
+        "monochromeImage": "./assets/splash-icon.png"
       },
       "predictiveBackGestureEnabled": false,
       "package": "com.udfoodssteam.udfoods"
@@ -27,6 +27,9 @@
         "projectId": "6b2295a6-8551-4ae5-a570-d1f7e86af450"
       }
     },
-    "owner": "udfoodss-team"
+    "owner": "udfoodss-team",
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
