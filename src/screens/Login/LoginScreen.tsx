@@ -91,7 +91,7 @@ export default function LoginScreen() {
           <View style={styles.logoSection}>
             <Image
               source={require(
-                "../assets/splash-icon.png"
+                "../../../assets/splash-icon.png"
               )}
               style={styles.logo}
               resizeMode="contain"
